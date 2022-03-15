@@ -113,7 +113,7 @@ void renderGame(string guessedWord, string& badGuess, int badGuessCount){
     cout << FIGURE[badGuessCount];
     cout << "Number of wrong guesses: " << badGuessCount << endl;
     if (badGuessCount > 0) {
-        cout << "Wrong " << (badGuessCount == 1 ? "word: " : "words: "); 
+        cout << "Wrong " << (badGuessCount == 1 ? "guess: " : "guesses: "); 
         cout << badGuess << endl;
     }
 };
